@@ -1,0 +1,34 @@
+@import './reset.scss';
+@import './variables.scss';
+
+:root {
+  --bs-font-sans-serif: 'Rubik', sans-serif;
+}
+
+.container-xxl {
+  max-width: 1530px;
+}
+
+body {
+  background-image: url('/image/i-like-food.svg');
+  background-color: #f3f3f3;
+}
+
+a {
+  color: var(--bs-dark);
+}
+
+.breadcrumb {
+  font-size: calc(10px + 0.1vw);
+  & .page-item {
+    text-transform: lowercase;
+  }
+  & .page-item::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+@import '../components/category/category.scss';
+@import '../components/lastes/lastes.scss';
+@import '../components/recipeSingleCard/recipeSingleCard.scss';
+@import '../components//recipeCategoryCard/recipeCategoryCard.scss';

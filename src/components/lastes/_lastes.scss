@@ -1,0 +1,20 @@
+.lastes-recipe-card{
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--background-color);
+  font-family: 'Lora', serif;
+}
+
+.lastes-recipe-image{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.lastes-recipe-name {
+  font-weight: 600;
+  text-transform: lowercase;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}

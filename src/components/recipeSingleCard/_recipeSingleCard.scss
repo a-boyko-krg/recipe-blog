@@ -1,0 +1,48 @@
+.recipe-wrapper {
+  font-family: 'Lora', serif;
+  font-size: calc(10px + 0.25vw);
+}
+
+.recipe-title {
+  font-size: calc(17px + 0.625vw);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.recipe-cat{
+  font-size: calc(10px + 0.25vw);
+  color: #be9656;
+  & i{
+    margin-right: 3px;
+  }
+}
+
+.singlePostDesc {
+  font-style: italic;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: calc(17px + 0.625vw);
+  font-weight: 600;
+}
+
+.recipe-subtitle {
+  padding: 5px 0 5px 0;
+  font-weight: 800;
+}
+
+
+.list-item {
+   margin-left: 30px;
+  list-style: disc;
+}
+
+.products-item {
+  line-height: 20px;
+}
+
+.method-item {
+  list-style: decimal;
+  padding: 10px;
+}
